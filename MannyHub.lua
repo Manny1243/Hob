@@ -1,6 +1,6 @@
 local UILibrary = loadstring(game:HttpGet("https://pastebin.com/raw/V1ca2q9s"))()
 
-local MainUI = UILibrary.Load("Manny Hub")
+local MainUI = UILibrary.Load("Leroy Hub")
 local FirstPage = MainUI.AddPage("Demon Falll")
 
 local FirstButton = FirstPage.AddButton("LeadMarker", function()
@@ -25,4 +25,10 @@ end)
 
 local FirstButton = FirstPage.AddButton("AmateurHub", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/JOSHYEXPLOITS/AmateurHub/main/Amateur%20Hub"))()
+end)
+
+local SecondPage = MainUI.AddPage("Blox Fruit")
+
+local FirstButton = SecondPage.AddButton("Hello", function()
+    print("Hello")
 end)
