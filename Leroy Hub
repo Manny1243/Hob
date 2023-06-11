@@ -1,76 +1,9 @@
-local lib = loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/Vape.txt")()
+local UILibrary = loadstring(game:HttpGet("https://pastebin.com/raw/V1ca2q9s"))()
 
-local win = lib:Window("Leroy Hub",Color3.fromRGB(44, 120, 224), Enum.KeyCode.RightControl)
+local MainUI = UILibrary.Load("Leroy Hub")
+local FirstPage = MainUI.AddPage("Demon Falll")
 
-local tab = win:Tab("Demon Fall")
-
-tab:Button("Swag Hub", function()
-    loadstring(game:HttpGet("https://scriptblox.com/raw/Demonfall-2.65-DemonFall-Update-9853"))()
-end)
-
-tab:Button("PerfectCristal Hunt", function()
-    loadstring(game:HttpGet("https://scriptblox.com/raw/Demonfall-4.0-PerfectCristal-Hunt-10542"))() 
-end)
-
-local tab = win:Tab("Project slayer")
-
-tab:Button("Auto Farm,Kill aura,Etc ", function()
-    loadstring(game:HttpGet("https://scriptblox.com/raw/Update-1-Project-Slayers-ffd-10608"))()
-end)
-
-tab:Button("Slayers Lean", function()
-    loadstring(game:HttpGet("https://scriptblox.com/raw/Update-1-Project-Slayers-Slayer-Grinch-Ware-10872"))()
-end)
-
-tab:Button("INSTA KILL AURA ONE SHOT MOBS v209 servers only", function()
-    loadstring(game:HttpGet("https://scriptblox.com/raw/Project-Slayers-INSTA-KILL-AURA-ONE-SHOT-MOBS-v209-servers-only-6881"))()
-end)
-
-tab:Button("Oni Hub", function()
-    loadstring(game:HttpGet("https://scriptblox.com/raw/Update-1.5-Project-Slayers-Oni-Hub-11197"))()
-end)
-
-tab:Button("Sylveon Hub", function()
-    loadstring(game:HttpGet("https://scriptblox.com/raw/Update-1-Project-Slayers-slayer-Sylveon-Hub-10978"))()
-end)
-
-tab:Button("BlackoutServices", function()
-    loadstring(game:HttpGet("https://scriptblox.com/raw/Update-1.5-Project-Slayers-BlackoutServices-11030"))()
-end)
-
-
-local tab = win:Tab("Blox Fruit")
-
-tab:Button("HEATER", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/HeatHuh/HeaterHub/main/HeaterLoader"))()   
-end)
-
-tab:Button("AIMBOT", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/ThunderZ-HUB/HUB/main/Aimbot"))()
-end)
-
-tab:Button("FAI FAO", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/PNguyen0199/faifao/main/Protected.lua"))()
-end)
-
-tab:Button("BULULUK", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Fiend1sh/FiendMain/main/BululukMain"))()
-end)
-                
-
-local tab = win:Tab(" Settings")
-
-
-tab:Colorpicker("Colorpicker",Color3.fromRGB(255,0,0), function(t)
-print(t)
-end)
-
-tab:Bind("Bind",Enum.KeyCode.RightControl, function()
-print("Pressed!")
-end)
-
-tab:Label("Label")
-
-changeclr:Colorpicker("Change UI Color",Color3.fromRGB(44, 120, 224), function(t)
-lib:ChangePresetColor(Color3.fromRGB(t.R * 255, t.G * 255, t.B * 255))
+local FirstLabel = FirstPage.AddLabel("Swag Hub")
+local FirstButton = FirstPage.AddButton("Hello", function()
+print("Hello")
 end)
