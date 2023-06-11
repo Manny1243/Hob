@@ -18,6 +18,22 @@ tab:Button("Auto Farm,Kill aura,Etc ", function()
     loadstring(game:HttpGet("https://scriptblox.com/raw/Update-1-Project-Slayers-ffd-10608"))()
 end)
 
+tab:Button("Slayers Lean", function()
+    loadstring(game:HttpGet("https://scriptblox.com/raw/Update-1-Project-Slayers-Slayer-Grinch-Ware-10872"))()
+end)
+
+tab:Button("INSTA KILL AURA ONE SHOT MOBS v209 servers only", function()
+    loadstring(game:HttpGet("https://scriptblox.com/raw/Project-Slayers-INSTA-KILL-AURA-ONE-SHOT-MOBS-v209-servers-only-6881"))()
+end)
+
+tab:Button("Oni Hub", function()
+    loadstring(game:HttpGet("https://scriptblox.com/raw/Update-1.5-Project-Slayers-Oni-Hub-11197"))()
+end)
+
+tab:Button("Sylveon Hub", function()
+    loadstring(game:HttpGet("https://scriptblox.com/raw/Update-1-Project-Slayers-slayer-Sylveon-Hub-10978"))()
+end)
+
 local tab = win:Tab(" Settings")
 
 
