@@ -38,6 +38,26 @@ tab:Button("BlackoutServices", function()
     loadstring(game:HttpGet("https://scriptblox.com/raw/Update-1.5-Project-Slayers-BlackoutServices-11030"))()
 end)
 
+
+local tab = win:Tab("Blox Fruit")
+
+tab:Button("HEATER", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/HeatHuh/HeaterHub/main/HeaterLoader"))()   
+end)
+
+tab:Button("AIMBOT", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ThunderZ-HUB/HUB/main/Aimbot"))()
+end)
+
+tab:Button("FAI FAO", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/PNguyen0199/faifao/main/Protected.lua"))()
+end)
+
+tab:Button("BULULUK", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Fiend1sh/FiendMain/main/BululukMain"))()
+end)
+                
+
 local tab = win:Tab(" Settings")
 
 
