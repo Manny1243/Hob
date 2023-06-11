@@ -34,6 +34,10 @@ tab:Button("Sylveon Hub", function()
     loadstring(game:HttpGet("https://scriptblox.com/raw/Update-1-Project-Slayers-slayer-Sylveon-Hub-10978"))()
 end)
 
+tab:Button("BlackoutServices", function()
+    loadstring(game:HttpGet("https://scriptblox.com/raw/Update-1.5-Project-Slayers-BlackoutServices-11030"))()
+end)
+
 local tab = win:Tab(" Settings")
 
 
