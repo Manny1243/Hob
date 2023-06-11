@@ -8,9 +8,16 @@ tab:Button("Swag Hub", function()
     loadstring(game:HttpGet("https://scriptblox.com/raw/Demonfall-2.65-DemonFall-Update-9853"))()
 end)
 
-tab:Button("DEMONFALL-V2", function()
-    loadstring(game:HttpGet("https://scriptblox.com/raw/Demonfall-2.65-DEMONFALL-V2-6994"))()
+tab:Button("PerfectCristal Hunt", function()
+    loadstring(game:HttpGet("https://scriptblox.com/raw/Demonfall-4.0-PerfectCristal-Hunt-10542"))() 
 end)
+
+local tab = win:Tab("Project slayer")
+
+tab:Button("Auto Farm,Kill aura,Etc ", function()
+    loadstring(game:HttpGet("https://scriptblox.com/raw/Update-1-Project-Slayers-ffd-10608"))()
+end)
+
 local tab = win:Tab(" Settings")
 
 
