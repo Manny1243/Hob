@@ -65,7 +65,7 @@ tab:Colorpicker("Colorpicker",Color3.fromRGB(255,0,0), function(t)
 print(t)
 end)
 
-tab:Bind("Bind",Enum.KeyCode.RightShift, function()
+tab:Bind("Bind",Enum.KeyCode.RightControl, function()
 print("Pressed!")
 end)
 
