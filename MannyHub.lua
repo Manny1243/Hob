@@ -51,3 +51,7 @@ end)
 local FirstButton = SecondPage.AddButton("MEMAYBEO", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/ZPSXHUB/Z/main/MeMayBeo"))()
 end)
+
+local FirstButton = SecondPage.AddButton("DOMADIC", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Domadicoof/Domadicoof/main/Domadichub/NottoGay/Start.ranscript"))()
+end)
