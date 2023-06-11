@@ -1,6 +1,6 @@
 local UILibrary = loadstring(game:HttpGet("https://pastebin.com/raw/V1ca2q9s"))()
 
-local MainUI = UILibrary.Load("Manny Hub")
+local MainUI = UILibrary.Load("Leroy Hub")
 local FirstPage = MainUI.AddPage("Demon Falll")
 
 local FirstButton = FirstPage.AddButton("LeadMarker", function()
@@ -29,6 +29,25 @@ end)
 
 local SecondPage = MainUI.AddPage("Blox Fruit")
 
-local FirstButton = SecondPage.AddButton("Hello", function()
-    print("Hello")
+local FirstButton = SecondPage.AddButton("AlchemyHub", function()
+    loadstring(game:HttpGet("https://luable.netlify.app/AlchemyHub/Luncher.script"))()
+end)
+
+local FirstButton = SecondPage.AddButton("HEATER", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/HeatHuh/HeaterHub/main/HeaterLoader"))()      
+end)
+local FirstButton = SecondPage.AddButton("AIMBOT", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ThunderZ-HUB/HUB/main/Aimbot"))()        
+end)
+
+local FirstButton = SecondPage.AddButton("FAI FAO", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/PNguyen0199/faifao/main/Protected.lua"))()       
+end)
+
+local FirstButton = SecondPage.AddButton("BULULUK", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Fiend1sh/FiendMain/main/BululukMain"))()       
+end)
+
+local FirstButton = SecondPage.AddButton("MEMAYBEO", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ZPSXHUB/Z/main/MeMayBeo"))()
 end)
